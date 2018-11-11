@@ -69,7 +69,7 @@
  * ContextMenu.enable( selector, "Close" );
  *
  */
-( function( window ) {
+( function() {
 	'use strict';
 
 
@@ -626,4 +626,4 @@
 	} else {
 		window.ContextMenu = ContextMenu;
 	}
-} )( this );
+} )();
